@@ -7,7 +7,7 @@ class Error extends Component {
             <div>
                 <h1>Error {this.props.location.state.errorCode}!</h1>
                 {this.props.location.state.errorMessage ? <h2>{this.props.location.state.errorMessage}</h2>: null}
-                <Link to="/">Return Home</Link>
+                <Link to="/">Go back</Link>
             </div>
         );
     }
