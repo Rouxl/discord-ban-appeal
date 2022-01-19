@@ -6,7 +6,7 @@ import './question.css'
 class Question extends Component {
     state = {
         chars_used: 0,
-        character_limit: 1024
+        character_limit: 2048
     }
 
     constructor(props) {
@@ -14,8 +14,8 @@ class Question extends Component {
         this.handleWordCount = this.handleWordCount.bind(this);
     }
     componentDidMount() {
-        if (this.props.characterLimit > 1024) {
-            this.setState({character_limit: 1024})
+        if (this.props.characterLimit > 2048) {
+            this.setState({character_limit: 2048})
         } else {
             this.setState({character_limit: this.props.characterLimit})
 
