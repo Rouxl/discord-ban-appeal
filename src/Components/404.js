@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PageNotFound from '../Images/readingtunic.jpg'
+import PageNotFound from '../Images/recordscrath.png'
 import {NavLink} from "react-router-dom";
 class PageNotFoundError extends Component
 {
